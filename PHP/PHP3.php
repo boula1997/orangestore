@@ -27,7 +27,7 @@ $sql = "INSERT INTO Contactus (User_Name, Email, Cell_Phone,Comment,coustmer_id)
 VALUES ('$User_Name', '$Email', '$Cell_Phone','$Comment','$coustmer_id')";
 
 if ($conn->query($sql) === TRUE) {
-  header("location:http://localhost/Orange/PHP/Home.php?coustmer_id=".$coustmer_id); 
+  header("location:https://yousab-tech.com/orangestore/PHP/Home.php?coustmer_id=".$coustmer_id); 
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }

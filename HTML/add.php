@@ -13,7 +13,7 @@ $product_id=$_GET['product_id'];
 
 
 $stmt = $pdo->query("INSERT INTO `pruchaces`(`coustmer_id`, `product_id`) VALUES ('$coustmer_id','$product_id')");
-header("location:http://localhost/Orange/HTML/Shoppingcart.php?coustmer_id=".$coustmer_id);
+header("location:https://yousab-tech.com/orangestore/HTML/Shoppingcart.php?coustmer_id=".$coustmer_id);
 
 
 ?>

@@ -9,7 +9,8 @@ try{
 	
 $stmt = $pdo->query("SELECT * FROM creataccount WHERE Email='$Email' AND My_Password='$Password2'");
 if($row = $stmt->fetch(PDO::FETCH_ASSOC))
-header("location:http://localhost/Orange/Home.php?coustmer_id=".$row['id']);
+{echo $row['id'];
+header("location:https://yousab-tech.com/orangestore/Home.php?coustmer_id=".$row['id']);}
 else
 die("your password don't match with your Email"); 
 

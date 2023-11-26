@@ -13,7 +13,7 @@ $stmt = $pdo->query("INSERT INTO `checkout`(`coustmer_id`, `product_id`) VALUES 
 
 
 $stmt = $pdo->query("DELETE FROM `pruchaces` WHERE coustmer_id=$coustmer_id and product_id=$product_id ");
-header("location:http://localhost/Orange/HTML/Shoppingcart.php?coustmer_id=".$coustmer_id);
+header("location:https://yousab-tech.com/orangestore/HTML/Shoppingcart.php?coustmer_id=".$coustmer_id);
 
 
 ?>
