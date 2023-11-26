@@ -17,6 +17,8 @@ $Last_Name=$_POST["Last_Name"];
 $password2=$_POST["My_Password"];
 $Confirm_Passwors=$_POST["Confirm_Password"];
 
+try{
+
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -34,4 +36,9 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
+} catch (PDOException $e) {
+  echo "PDOException: " . $e->getMessage();
+}
+
+
 ?>
