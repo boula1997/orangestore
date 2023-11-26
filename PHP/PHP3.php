@@ -6,9 +6,9 @@
 
 
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "Orange";
+$username = "yousabte_orange";
+$password = "5w~TzZ*VgtZD";
+$dbname = "yousabte_orange";
 $coustmer_id=$_GET['coustmer_id'];
 
 $User_Name=$_POST["User_Name"];
