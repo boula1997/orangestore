@@ -36,7 +36,7 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
-} catch (PDOException $e) {
+} catch (Exception $e) {
   echo "PDOException: " . $e->getMessage();
 }
 
