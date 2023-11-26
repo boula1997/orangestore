@@ -5,7 +5,7 @@ require_once "pdo.php";
 			$Password2=$_POST["My_Password"];
 
 			
- 	$stmt = $pdo->query("SELECT * FROM Creataccount WHERE Email='$Email' AND My_Password='$Password2'");
+ 	$stmt = $pdo->query("SELECT * FROM creataccount WHERE Email='$Email' AND My_Password='$Password2'");
 		if($row = $stmt->fetch(PDO::FETCH_ASSOC))
 		header("location:http://localhost/Orange/Home.php?coustmer_id=".$row['id']);
 		else

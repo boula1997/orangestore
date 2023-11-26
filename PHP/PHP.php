@@ -26,7 +26,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO Creataccount (Email, First_Name, Last_Name,My_Password,Confirm_Password)
+$sql = "INSERT INTO creataccount (Email, First_Name, Last_Name,My_Password,Confirm_Password)
 VALUES ('$Email', '$First_Name', '$Last_Name','$password2','$Confirm_Passwors')";
 
 if ($conn->query($sql) === TRUE) {
