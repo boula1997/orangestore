@@ -184,14 +184,14 @@ while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
 				<div class="col-md-4 col-sm-6 col-xm-12">
 					<div class="price_box wow fadeInUp" data-wow-duration="2s" data-wow-offset="200">
 						<div class="img">
-							<img id=<?php echo number_format($row['id']);?>  class="center-block" src="../images/cart/<?php  echo $row['title'];?>" alt="img">
+							<img id=<?php echo number_format($row['p.id']);?>  class="center-block" src="../images/cart/<?php  echo $row['pt.title'];?>" alt="img">
 						</div>
 						<ul class="info list-unstyled">
-							<li >EGP <?php  echo number_format($row['price'], 2);?></li>
-							<li class="right-text">EGP <?php  echo number_format($row['price'], 2);?></li>
+							<li >EGP <?php  echo number_format($row['p.price'], 2);?></li>
+							<li class="right-text">EGP <?php  echo number_format($row['p.price'], 2);?></li>
 							<br>
-							<li class=""> <?php  echo $row['description'];?></li>
-							<a href="add.php&product_id=<?php echo number_format($row['id']);?>">add to cart</a>    
+							<li class=""> <?php  echo $row['pt.description'];?></li>
+							<a href="add.php&product_id=<?php echo number_format($row['p.id']);?>">add to cart</a>    
 							
 							
 								
