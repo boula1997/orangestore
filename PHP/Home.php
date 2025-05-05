@@ -177,8 +177,6 @@ session_start();
 			JOIN product_translations pt ON p.id = pt.product_id
 			WHERE pt.locale = 'ar'");
 			while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
-				var_dump($row)
-
 			?>
 
 				<div class="col-md-4 col-sm-6 col-xm-12">

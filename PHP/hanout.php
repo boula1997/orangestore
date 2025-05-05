@@ -1,7 +1,7 @@
 <?php
 echo "<pre>\n";
-$pdo=new PDO('mysql:host=localhost;port=3306;dbname=misc',
-     'root', '');
+$pdo=new PDO('mysql:host=localhost;port=3306;dbname=yousabte_workspace',
+     'yousabte_workspace', 'kD[asKgc%ydC');
      $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 $stmt = $pdo->query("SELECT * FROM users");
