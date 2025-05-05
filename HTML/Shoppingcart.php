@@ -64,7 +64,7 @@ session_start();
                         </ul>
                     </li>
                      <li><a href="../HTML/Find us.php">Find Us</a></li>
-                        <li><a href="../HTML/Log in.php">Login</a></li>
+                        
                         
                       
                     </ul>

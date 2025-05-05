@@ -53,7 +53,7 @@
 						</ul>
 					</li>
 					 <li class="active"><a href="../HTML/Find us.php">Find Us <span class="sr-only">(current)</span></a></a></li>
-						<li><a href="../HTML/Log in.php">Login</a></li>
+						
 						
 					  
 					</ul>
