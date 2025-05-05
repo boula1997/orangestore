@@ -230,22 +230,22 @@ session_start();
  <form action="PHP3.php" method="POST" role="role ">
 
 		<div class="form-group">
-			<input type="text" class="form-control input-lg"  placeholder="username" name="User_Name">
+			<input type="text" class="form-control input-lg"  placeholder="username" name="name">
 		</div>
 
 		<div class="form-group">
-			<input type="text" class="form-control input-lg" placeholder="email" name="Email">
+			<input type="text" class="form-control input-lg" placeholder="email" name="email">
 		</div>
 
 		<div class="form-group">
-			<input type="text" class="form-control input-lg" placeholder="Cell phone" name="Cell_Phone">
+			<input type="text" class="form-control input-lg" placeholder="Cell phone" name="phone">
 		</div>
 
 		
 	 </div>
 	 <div class="col-md-6 wow bounceInRight"data-wow-duration="1s" data-wow-offset="300">
 		<div class="form-group">
-			<textarea class="form-control input-lg" placeholder="Your Message" name="Comment"></textarea>
+			<textarea class="form-control input-lg" placeholder="Your Message" name="message"></textarea>
 			
 		</div>
 		<button type="submit" value="submit" class="btn-lg btn-block"> Contact Us</button>
