@@ -24,7 +24,7 @@ if ($conn->connect_error) {
 }
 
 $sql = "INSERT INTO messages (name, email, phone,message)
-VALUES ('$name', '$email', '$phone','$message'')";
+VALUES ('$name', '$email', '$phone','$message')";
 
 if ($conn->query($sql) === TRUE) {
   header("location:https://yousab-tech.com/orangestore/PHP/Home.php"); 

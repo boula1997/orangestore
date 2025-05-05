@@ -230,7 +230,7 @@ session_start();
  <form action="PHP3.php" method="POST" role="role ">
 
 		<div class="form-group">
-			<input type="text" class="form-control input-lg"  placeholder="username" name="name">
+			<input type="text" class="form-control input-lg"  placeholder="Name" name="name">
 		</div>
 
 		<div class="form-group">
@@ -238,7 +238,7 @@ session_start();
 		</div>
 
 		<div class="form-group">
-			<input type="text" class="form-control input-lg" placeholder="Cell phone" name="phone">
+			<input type="text" class="form-control input-lg" placeholder="Phone" name="phone">
 		</div>
 
 		
