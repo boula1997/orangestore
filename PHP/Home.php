@@ -172,14 +172,14 @@ session_start();
 
 		<?php
 
-$stmt = $pdo->query("SELECT p.id, p.price, pt.title, pt.description
-FROM products p
-JOIN product_translations pt ON p.id = pt.product_id
-WHERE pt.locale = 'ar'");
-while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
+			$stmt = $pdo->query("SELECT p.id, p.price, pt.title, pt.description
+			FROM products p
+			JOIN product_translations pt ON p.id = pt.product_id
+			WHERE pt.locale = 'ar'");
+			while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
+				var_dump($row)
 
-
-?>
+			?>
 
 				<div class="col-md-4 col-sm-6 col-xm-12">
 					<div class="price_box wow fadeInUp" data-wow-duration="2s" data-wow-offset="200">
@@ -198,13 +198,13 @@ while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
 						</ul>
 					</div>	
 				</div>
-				
-			
+							
+						
 
-			<?php
+					<?php
 
-		}
-		?>
+					}
+					?>
 
 			
 			
