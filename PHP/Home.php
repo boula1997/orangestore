@@ -183,7 +183,7 @@ session_start();
 
 				<div class="col-md-4 col-sm-6 col-xm-12">
 					<div class="price_box wow fadeInUp" data-wow-duration="2s" data-wow-offset="200">
-						<div class="img">
+							<div class="img">
 							<img id=<?php echo number_format($row['p.id']);?>  class="center-block" src="../images/cart/<?php  echo $row['pt.title'];?>" alt="img">
 						</div>
 						<ul class="info list-unstyled">
