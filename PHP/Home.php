@@ -172,7 +172,7 @@ session_start();
 
 		<?php
 
-			$stmt = $pdo->query("SELECT p.id, p.price, pt.title, pt.description
+			$stmt = $pdo->query("SELECT p.id, pt.title, pt.description
 			FROM products p
 			JOIN product_translations pt ON p.id = pt.product_id
 			WHERE pt.locale = 'ar'");
@@ -185,8 +185,8 @@ session_start();
 							<img id=<?php echo number_format($row['id']);?>  class="center-block" src="../images/cart/<?php  echo $row['pt.title'];?>" alt="img">
 						</div>
 						<ul class="info list-unstyled">
-							<li >EGP <?php  echo number_format($row['price'], 2);?></li>
-							<li class="right-text">EGP <?php  echo number_format($row['price'], 2);?></li>
+							<li >EGP <?php  echo number_format(50, 2);?></li>
+							<li class="right-text">EGP <?php  echo number_format(50, 2);?></li>
 							<br>
 							<li class=""> <?php  echo $row['pt.description'];?></li>
 							<a href="add.php&product_id=<?php echo number_format($row['id']);?>">add to cart</a>    
