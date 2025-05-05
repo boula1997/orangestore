@@ -1,10 +1,4 @@
-
-
-
 <?php
-
-
-
 $servername = "localhost";
 $username = "yousabte_workspace";
 $password = "kD[asKgc%ydC";
@@ -26,7 +20,7 @@ if ($conn->connect_error) {
 $sql = "INSERT INTO messages (name, email, phone,message)
 VALUES ('$name', '$email', '$phone','$message')";
 
-if ($conn->query($sql) === TRUE) {
+if ($conn->query($sql) === true) {
   header("location:https://yousab-tech.com/orangestore/PHP/Home.php"); 
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
