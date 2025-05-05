@@ -43,7 +43,7 @@
                       
                       <!-- <li ><a href="../HTML/Shoppingcart.php">Shoping Cart </a></li> -->
                       <!-- <li  class=""><a href="../HTML/Shoppingcheckout.php">Checkout <span class="sr-only">(current)</span></a></li> -->
-                      <li class="dropdown">
+                      <!-- <li class="dropdown">
                         <a href="../HTML/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                           <li><a href="../HTML/Mobiles.php">Mobiles</a></li>
@@ -52,7 +52,7 @@
       
       
                         </ul>
-                    </li>
+                    </li> -->
                      <li><a href="../HTML/Find us.php">Find Us</a></li>
 
                        
