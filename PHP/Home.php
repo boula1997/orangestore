@@ -175,7 +175,7 @@ session_start();
 $stmt = $pdo->query("SELECT p.id, p.Price, p.Price_disc, pt.title, pt.description
 FROM products p
 JOIN product_translations pt ON p.id = pt.product_id
-WHERE pt.locale = 'en'");
+WHERE pt.locale = 'ar'");
 while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
 
 
@@ -184,7 +184,7 @@ while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
 				<div class="col-md-4 col-sm-6 col-xm-12">
 					<div class="price_box wow fadeInUp" data-wow-duration="2s" data-wow-offset="200">
 						<div class="img">
-							<img id=<?php echo number_format($row['id']);?>  class="center-block" src="../images/cart/<?php  echo $row['name'];?>" alt="img">
+							<img id=<?php echo number_format($row['id']);?>  class="center-block" src="../images/cart/<?php  echo $row['title'];?>" alt="img">
 						</div>
 						<ul class="info list-unstyled">
 							<li >EGP <?php  echo number_format($row['price'], 2);?></li>
