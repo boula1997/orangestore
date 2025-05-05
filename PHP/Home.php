@@ -172,7 +172,7 @@ session_start();
 
 		<?php
 
-$stmt = $pdo->query("SELECT p.id, p.Price, p.Price_disc, pt.title, pt.description
+$stmt = $pdo->query("SELECT p.id, p.price, pt.title, pt.description
 FROM products p
 JOIN product_translations pt ON p.id = pt.product_id
 WHERE pt.locale = 'ar'");
