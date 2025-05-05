@@ -50,7 +50,7 @@ while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
 
 
 
-<p><a href="../HTML/Dashboard.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>"> Dahboard    </p>
+<p><a href="../HTML/Dashboard.php"> Dahboard    </p>
 
 
 

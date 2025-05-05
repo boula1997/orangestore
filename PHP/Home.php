@@ -35,21 +35,21 @@ session_start();
       </button>
 
       <!-- logo  -->
-      <a class="navbar-brand" href="Home.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>"> Orange<span>Market</span></a>
+      <a class="navbar-brand" href="Home.php"> Orange<span>Market</span></a>
     </div>
 
     <div class="collapse navbar-collapse" id="navtest">
 		      <ul class="nav navbar-nav navbar-right">
-		        <li class="active"><a href="../PHP/Home.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Home <span class="sr-only">(current)</span></a></li>
+		        <li class="active"><a href="../PHP/Home.php">Home <span class="sr-only">(current)</span></a></li>
 		        
-		        <li ><a href="../HTML/Shoppingcart.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Shoping Cart </a></li>
-				<li  class=""><a href="../HTML/Shoppingcheckout.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Checkout <span class="sr-only">(current)</span></a></li>
+		        <li ><a href="../HTML/Shoppingcart.php">Shoping Cart </a></li>
+				<li  class=""><a href="../HTML/Shoppingcheckout.php">Checkout <span class="sr-only">(current)</span></a></li>
 		        <li class="dropdown">
 		          <a href="../HTML/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories<span class="caret"></span></a>
 				  <ul class="dropdown-menu">
-					<li><a href="../HTML/Mobiles.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Mobiles</a></li>
-					<li><a href="../HTML/Accessories.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Accessories</a></li>
-					<li><a href="../HTML/Routers.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Routers</a></li>
+					<li><a href="../HTML/Mobiles.php">Mobiles</a></li>
+					<li><a href="../HTML/Accessories.php">Accessories</a></li>
+					<li><a href="../HTML/Routers.php">Routers</a></li>
 					
 		           
 		    
@@ -57,7 +57,7 @@ session_start();
 
 		          </ul>
               </li>
-               <li><a href="../HTML/Find us.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Find Us</a></li>
+               <li><a href="../HTML/Find us.php">Find Us</a></li>
 		          <li><a href="../HTML/Log in.php">Login</a></li>
 				  <li><a href="../HTML/Log in.php">Logout</a></li>
 		          
@@ -191,7 +191,7 @@ while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
 							<li class="right-text">EGP <?php  echo number_format($row['Price'], 2);?></li>
 							<br>
 							<li class=""> <?php  echo $row['description'];?></li>
-							<a href="add.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>&product_id=<?php echo number_format($row['id']);?>">add to cart</a>    
+							<a href="add.php&product_id=<?php echo number_format($row['id']);?>">add to cart</a>    
 							
 							
 								
@@ -229,7 +229,7 @@ while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
 		<h1>TELL US WHAT YOU FEEL</h1>
 		<p class="lead">Feel free to contact us anytime</p>
 <div class="col-md-6 wow bounceInLeft"data-wow-duration="1s" data-wow-offset="300" >
- <form action="PHP3.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>" method="POST" role="role ">
+ <form action="PHP3.php" method="POST" role="role ">
 
 		<div class="form-group">
 			<input type="text" class="form-control input-lg"  placeholder="username" name="User_Name">

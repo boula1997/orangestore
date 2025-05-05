@@ -39,26 +39,26 @@
       
           <div class="collapse navbar-collapse" id="navtest">
                     <ul class="nav navbar-nav navbar-right">
-                      <li ><a href="../PHP/Home.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Home </a></li>
+                      <li ><a href="../PHP/Home.php">Home </a></li>
                       
-                      <li ><a href="../HTML/Shoppingcart.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Shoping Cart </a></li>
-                      <li  class=""><a href="../HTML/Shoppingcheckout.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Checkout <span class="sr-only">(current)</span></a></li>
+                      <li ><a href="../HTML/Shoppingcart.php">Shoping Cart </a></li>
+                      <li  class=""><a href="../HTML/Shoppingcheckout.php">Checkout <span class="sr-only">(current)</span></a></li>
                       <li class="dropdown">
                         <a href="../HTML/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                          <li><a href="../HTML/dress.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Dresses & Jump Suites</a></li>
-                          <li><a href="../HTML/outwear.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Out Wear</a></li>
-                          <li><a href="../HTML/tops.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Tops & Kintwear</a></li>
-                          <li><a href="../HTML/skirts.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Skirts & Trousers</a></li>
+                          <li><a href="../HTML/dress.php">Dresses & Jump Suites</a></li>
+                          <li><a href="../HTML/outwear.php">Out Wear</a></li>
+                          <li><a href="../HTML/tops.php">Tops & Kintwear</a></li>
+                          <li><a href="../HTML/skirts.php">Skirts & Trousers</a></li>
                           <li role="separator" class="divider"></li>
-                          <li><a href="../HTML/access.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Accessories</a></li>
+                          <li><a href="../HTML/access.php">Accessories</a></li>
                           <li role="separator" class="divider"></li>
-                          <li><a href="../HTML/per.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Perfumes</a></li>
+                          <li><a href="../HTML/per.php">Perfumes</a></li>
       
       
                         </ul>
                     </li>
-                     <li><a href="../HTML/Find us.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Find Us</a></li>
+                     <li><a href="../HTML/Find us.php">Find Us</a></li>
                         <li class="active"><a href="../HTML/Log in.php">Login <span class="sr-only">(current)</span></a></a></li>
                         
                       

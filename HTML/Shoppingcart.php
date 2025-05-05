@@ -45,25 +45,25 @@ session_start();
   
           <div class="collapse navbar-collapse" id="navtest">
                     <ul class="nav navbar-nav navbar-right">
-                      <li><a href="../PHP/Home.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Home </a></li>
+                      <li><a href="../PHP/Home.php">Home </a></li>
                       
-                      <li  class="active"><a href="../HTML/Shoppingcart.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Shoping Cart <span class="sr-only">(current)</span></a></li>
-					  <li  class=""><a href="../HTML/Shoppingcheckout.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Checkout <span class="sr-only">(current)</span></a></li>
+                      <li  class="active"><a href="../HTML/Shoppingcart.php">Shoping Cart <span class="sr-only">(current)</span></a></li>
+					  <li  class=""><a href="../HTML/Shoppingcheckout.php">Checkout <span class="sr-only">(current)</span></a></li>
 
                       
                       <li class="dropdown">
                         <a href="../HTML/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="../HTML/Mobiles.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Mobiles</a></li>
-                            <li><a href="../HTML/Accessories.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Accessories</a></li>
-                            <li><a href="../HTML/Routers.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Routers</a></li>
+                            <li><a href="../HTML/Mobiles.php">Mobiles</a></li>
+                            <li><a href="../HTML/Accessories.php">Accessories</a></li>
+                            <li><a href="../HTML/Routers.php">Routers</a></li>
                          
                   
       
       
                         </ul>
                     </li>
-                     <li><a href="../HTML/Find us.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>">Find Us</a></li>
+                     <li><a href="../HTML/Find us.php">Find Us</a></li>
                         <li><a href="../HTML/Log in.php">Login</a></li>
                         
                       
@@ -100,9 +100,9 @@ while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
 							<li class="right-text">EGP <?php  echo number_format($row['Price'], 2);?></li>
 							<br>
 							<li class=""> <?php  echo $row['description'];?></li>
-							<a onclick="prompt('determine quantity');" href="checkout.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>&product_id=<?php echo number_format($row['id']);?>">check out</a>   
+							<a onclick="prompt('determine quantity');" href="checkout.php&product_id=<?php echo number_format($row['id']);?>">check out</a>   
 							<br>  
-							<a href="delete.php?coustmer_id=<?php echo number_format($_GET['coustmer_id']);?>&product_id=<?php echo number_format($row['id']);?>">delete from cart</a>    
+							<a href="delete.php&product_id=<?php echo number_format($row['id']);?>">delete from cart</a>    
 							
 							
 								
