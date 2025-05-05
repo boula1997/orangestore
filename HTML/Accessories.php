@@ -44,8 +44,8 @@ session_start();
                     <ul class="nav navbar-nav navbar-right">
                       <li><a href="../PHP/Home.php">Home </a></li>
                       
-                      <li  class=""><a href="../HTML/Shoppingcart.php">Shoping Cart <span class="sr-only">(current)</span></a></li>
-					  <li  class=""><a href="../HTML/Shoppingcheckout.php">Checkout <span class="sr-only">(current)</span></a></li>
+                      <!-- <li  class=""><a href="../HTML/Shoppingcart.php">Shoping Cart <span class="sr-only">(current)</span></a></li> -->
+					  <!-- <li  class=""><a href="../HTML/Shoppingcheckout.php">Checkout <span class="sr-only">(current)</span></a></li> -->
 
                       
                       <li class="dropdown">

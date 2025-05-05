@@ -41,8 +41,8 @@
                       <li class="active"><a href="../HTML/Dashboard.php">Dashboard <span class="sr-only">(current)</span></a></a></li>
                       <li ><a href="../PHP/Home.php">Home </a></li>
                       
-                      <li ><a href="../HTML/Shoppingcart.php">Shoping Cart </a></li>
-                      <li  class=""><a href="../HTML/Shoppingcheckout.php">Checkout <span class="sr-only">(current)</span></a></li>
+                      <!-- <li ><a href="../HTML/Shoppingcart.php">Shoping Cart </a></li> -->
+                      <!-- <li  class=""><a href="../HTML/Shoppingcheckout.php">Checkout <span class="sr-only">(current)</span></a></li> -->
                       <li class="dropdown">
                         <a href="../HTML/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories<span class="caret"></span></a>
                         <ul class="dropdown-menu">
