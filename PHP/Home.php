@@ -172,7 +172,10 @@ session_start();
 
 		<?php
 
-$stmt = $pdo->query("SELECT id, Price_disc,name, Price,description FROM items");
+$stmt = $pdo->query("SELECT p.id, p.Price, p.Price_disc, pt.title, pt.description
+FROM products p
+JOIN product_translations pt ON p.id = pt.product_id
+WHERE pt.locale = 'en'");
 while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
 
 
@@ -184,8 +187,8 @@ while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
 							<img id=<?php echo number_format($row['id']);?>  class="center-block" src="../images/cart/<?php  echo $row['name'];?>" alt="img">
 						</div>
 						<ul class="info list-unstyled">
-							<li >EGP <?php  echo number_format($row['Price_disc'], 2);?></li>
-							<li class="right-text">EGP <?php  echo number_format($row['Price'], 2);?></li>
+							<li >EGP <?php  echo number_format($row['price'], 2);?></li>
+							<li class="right-text">EGP <?php  echo number_format($row['price'], 2);?></li>
 							<br>
 							<li class=""> <?php  echo $row['description'];?></li>
 							<a href="add.php&product_id=<?php echo number_format($row['id']);?>">add to cart</a>    
