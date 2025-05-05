@@ -69,14 +69,11 @@ session_start();
 </nav>
 
 <!-- end navbar -->
-<!-- start video  -->
- <div class="homepage-block-full-width">
-	<video class="homepage-video" width="100%" height="auto"  muted  autoplay loop>
-		<source src="../video/video.mp4" type="video/mp4">
-		Your browser does not support the video tag.
-	</video>
+<!-- start banner image -->
+<div class="homepage-block-full-width">
+  <img class="homepage-banner" src="../images\02.jpg" alt="Laptop Store Banner" style="width: 100%; height: auto;">
 </div>
-<!-- end video -->
+<!-- end banner image -->
 
 
 <!-- start about us  -->
