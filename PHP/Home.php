@@ -38,7 +38,7 @@ session_start();
 
 			<!-- logo -->
 			<a class="navbar-brand" href="Home.php">
-			<img src="../images/logo.png" alt="Laptops Market Logo" style="height: 40px;">
+			<img src="../images/logo.png" alt="Laptops Market Logo" style="height: 200px;">
 			</a>
 			</div>
 
