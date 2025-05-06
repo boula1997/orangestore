@@ -238,11 +238,11 @@ video {
 }
 .contact-us p {
   margin-bottom: 40px;
+  margin-top: 5px;
 }
 
 .logo {
   height: 60px;
-  padding-top: 5px;
 }
 
 .contact-us textarea {
