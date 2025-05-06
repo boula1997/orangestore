@@ -37,7 +37,8 @@ session_start();
 				</button>
 
 				<!-- logo  -->
-				<a class="navbar-brand" href="Home.php"> Laptops<span>Market</span></a>
+				<a class="navbar-brand" href="Home.php">  <img src="../images/logo.png" alt="Laptops Market Logo" class="logo">
+				</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="navtest">
