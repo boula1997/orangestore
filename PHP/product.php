@@ -12,9 +12,9 @@ $stmt = $pdo->prepare("
     SELECT 
         p.id, p.price, p.price_bd, p.icon,
         pt.title, pt.description,
-        f.url AS image_url
+        f.url AS image
     FROM products p
-    JOIN product_translations pt ON p.id = pt.product_id AND pt.locale = 'ar'
+    JOIN product_translations pt ON p.id = pt.product_id AND pt.locale = 'en'
     LEFT JOIN files f ON f.fileable_id = p.id AND f.fileable_type = 'App\\\\Models\\\\Product'
     WHERE p.id = ?
     LIMIT 1
@@ -75,7 +75,7 @@ if (!$product) {
 <section class="container laptop-details" style="margin: 50px auto;">
     <div class="row">
         <div class="col-md-5">
-            <img src="<?= htmlspecialchars($product['image_url'] ?? $product['icon']) ?>" 
+            <img src="<?php echo "https://yousab-tech.com/workspace/public/" . $product['image']; ?>" 
                  alt="<?= htmlspecialchars($product['title']) ?>" 
                  class="img-responsive img-thumbnail">
         </div>
