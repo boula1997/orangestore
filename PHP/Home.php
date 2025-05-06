@@ -23,10 +23,52 @@ session_start();
 <body>
 
 
-<a class="navbar-brand" href="Home.php">
-  <!-- <img src="../images/logo.png" alt="Laptops Market Logo" class="logo"> -->
-</a>
+	<!-- start nav bar  -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
 
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navtest"
+					aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<!-- logo  -->
+				<a class="navbar-brand" href="Home.php"> Laptops<span>Market</span></a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navtest">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="../PHP/Home.php">Home <span class="sr-only">(current)</span></a></li>
+
+					<!-- <li ><a href="../HTML/Shoppingcart.php">Shoping Cart </a></li> -->
+					<!-- <li  class=""><a href="../HTML/Shoppingcheckout.php">Checkout <span class="sr-only">(current)</span></a></li> -->
+					<!-- <li class="dropdown">
+				  <a href="../HTML/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories<span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="../HTML/Mobiles.php">Mobiles</a></li>
+					<li><a href="../HTML/Accessories.php">Accessories</a></li>
+					<li><a href="../HTML/Routers.php">Routers</a></li>
+					
+				   
+			
+
+
+				  </ul>
+			  </li> -->
+					<li><a href="../HTML/Find us.php">Find Us</a></li>
+
+
+
+
+				</ul>
+
+			</div>
+		</div>
+	</nav>
 
 	<!-- end navbar -->
 	<!-- start banner image -->
