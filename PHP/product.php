@@ -77,7 +77,7 @@ if (!$product) {
         <div class="col-md-5">
             <img src="<?php echo "https://yousab-tech.com/workspace/public/" . $product['image']; ?>" 
                  alt="<?= htmlspecialchars($product['title']) ?>" 
-                 class="img-responsive img-thumbnail">
+                 class="img-responsive img-thumbnail" style="height: 100% !important;">
         </div>
         <div class="col-md-7">
 		<table class="table table-striped table-bordered">
