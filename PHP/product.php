@@ -32,7 +32,7 @@ if (!$product) {
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ORANGE MARKET</title>
+    <title>Laptop Market</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="../images/icon2.jpg" />
     <link rel='stylesheet' href='../css/bootstrap.css' />
@@ -55,7 +55,8 @@ if (!$product) {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="Home.php"> Orange<span>Market</span></a>
+            <a class="navbar-brand" href="Home.php">  <img src="../images/logo.png" alt="Laptops Market Logo" class="logo">
+            </a>
         </div>
         <div class="collapse navbar-collapse" id="navtest">
             <ul class="nav navbar-nav navbar-right">
@@ -161,7 +162,7 @@ if (!$product) {
         </div>
     </div>
     <div class="copyright text-center">
-        Copyright&copy;2019 <span>Orange Market</span>.Egypt
+        Copyright&copy;2019 <span>Laptops Market</span>.Egypt
     </div>
 </section>
 
