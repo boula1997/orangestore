@@ -246,6 +246,14 @@ video {
   margin-top: 10px;
 }
 
+
+/* للهواتف فقط */
+@media (max-width: 767px) {
+  .logo {
+    margin-left: 15px; /* عدل الرقم حسب ما يناسبك */
+  }
+}
+
 .contact-us textarea {
   height:108px;
 }
