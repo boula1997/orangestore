@@ -14,7 +14,7 @@ $stmt = $pdo->prepare("
         pt.title, pt.description,
         f.url AS image
     FROM products p
-    JOIN product_translations pt ON p.id = pt.product_id AND pt.locale = 'ar'
+    JOIN product_translations pt ON p.id = pt.product_id AND pt.locale = 'en'
     LEFT JOIN files f ON f.fileable_id = p.id AND f.fileable_type = 'App\\\\Models\\\\Product'
     WHERE p.id = ?
     LIMIT 1
