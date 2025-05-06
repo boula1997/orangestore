@@ -73,8 +73,9 @@ session_start();
 	<!-- end navbar -->
 	<!-- start banner image -->
 	<div class="homepage-block-full-width">
-		<img class="homepage-banner" src="../images\electronics-promotional-shopping-sale-computer-gadgets-and-touch-screen-devices-PR0MCY.jpg" alt="Laptop Store Banner"
-			style="width: 100%; height: auto;">
+		<img class="homepage-banner"
+			src="../images\electronics-promotional-shopping-sale-computer-gadgets-and-touch-screen-devices-PR0MCY.jpg"
+			alt="Laptop Store Banner" style="width: 100%; height: auto;">
 	</div>
 	<!-- end banner image -->
 
@@ -196,7 +197,8 @@ session_start();
 					<div class="col-md-4 col-sm-6 col-xm-12">
 						<div class="price_box wow fadeInUp" data-wow-duration="2s" data-wow-offset="200">
 							<div class="img">
-								<img id=<?php echo number_format($row['id']); ?> class="center-block" style="height: 300px !important;"
+								<img id=<?php echo number_format($row['id']); ?> class="center-block"
+									style="height: 300px !important;"
 									src="<?php echo "https://yousab-tech.com/workspace/public/" . $row['image']; ?>"
 									alt="img">
 							</div>
