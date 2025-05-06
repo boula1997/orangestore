@@ -67,9 +67,9 @@ if (!$product) {
 </nav>
 
 <!-- Banner -->
-<div class="homepage-block-full-width">
+<!-- <div class="homepage-block-full-width">
     <img class="homepage-banner" src="../images/04.jpg" alt="Laptop Store Banner" style="width: 100%; height: auto;">
-</div>
+</div> -->
 
 <!-- Product Details -->
 <section class="container laptop-details" style="margin: 50px auto;">
