@@ -77,6 +77,7 @@ if (!$product) {
     .fixed-img {
         width: 100%;
         object-fit: cover;
+		height: 300px;
     }
 </style>
 <div class="row">
