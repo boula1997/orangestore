@@ -14,7 +14,7 @@ $stmt = $pdo->prepare("
         pt.title, pt.description,
         f.url AS image
     FROM products p
-    JOIN product_translations pt ON p.id = pt.product_id AND pt.locale = 'en'
+    JOIN product_translations pt ON p.id = pt.product_id AND pt.locale = 'z'
     LEFT JOIN files f ON f.fileable_id = p.id AND f.fileable_type = 'App\\\\Models\\\\Product'
     WHERE p.id = ?
     LIMIT 1
@@ -86,14 +86,34 @@ if (!$product) {
             <table class="table table-striped table-bordered">
                 <thead class="bg-primary text-white">
                     <tr>
-                        <th>السعر</th>
-                        <th>السعر بعد الخصم</th>
+                        <th>Feature</th>
+                        <th>Detail</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><?= htmlspecialchars($product['price']) ?> ج.م</td>
-                        <td><?= htmlspecialchars($product['price_bd']) ?> ج.م</td>
+                        <td>Processor</td>
+                        <td>Intel Core i7-12700H</td>
+                    </tr>
+                    <tr>
+                        <td>RAM</td>
+                        <td>16 GB DDR5</td>
+                    </tr>
+                    <tr>
+                        <td>Storage</td>
+                        <td>1 TB SSD</td>
+                    </tr>
+                    <tr>
+                        <td>Display</td>
+                        <td>15.6" 4K UHD Touchscreen</td>
+                    </tr>
+                    <tr>
+                        <td>Graphics</td>
+                        <td>NVIDIA RTX 3050 Ti</td>
+                    </tr>
+                    <tr>
+                        <td>Battery Life</td>
+                        <td>Up to 12 hours</td>
                     </tr>
                 </tbody>
             </table>
