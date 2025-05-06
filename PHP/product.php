@@ -122,7 +122,7 @@ if (!$product) {
     </div>
     <div class="row">
         <div class="col-md-12">
-		<h2 class="text-primary"><?= htmlspecialchars($product['title']) ?></h2>
+		<!-- <h2 class="text-primary"><?= htmlspecialchars($product['title']) ?></h2> -->
 		<p class="lead"><?= $product['description'] ?></p>
         </div>
 
