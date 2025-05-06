@@ -247,6 +247,25 @@ video {
 }
 
 
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+.whatsapp-float img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00000033;
+  transition: transform 0.3s;
+}
+.whatsapp-float img:hover {
+  transform: scale(1.1);
+}
+
+
+
 /* للهواتف فقط */
 @media (max-width: 767px) {
   .logo {
