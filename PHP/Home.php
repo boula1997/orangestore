@@ -73,7 +73,7 @@ session_start();
 	<!-- end navbar -->
 	<!-- start banner image -->
 	<div class="homepage-block-full-width">
-		<img class="homepage-banner" src="../images\04.jpg" alt="Laptop Store Banner"
+		<img class="homepage-banner" src="../images\electronics-promotional-shopping-sale-computer-gadgets-and-touch-screen-devices-PR0MCY.jpg" alt="Laptop Store Banner"
 			style="width: 100%; height: auto;">
 	</div>
 	<!-- end banner image -->
