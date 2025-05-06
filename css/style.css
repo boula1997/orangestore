@@ -25,7 +25,7 @@ body {
     .navbar-inverse .navbar-nav > .active > a:focus
    {
       color: #fff;
-      background-color:#ff7900;
+      background-color:#428bca;
   }
        
        /*color el nav bar links*/
@@ -37,35 +37,35 @@ body {
   }
 
        .dropdown-menu {
- border-top: 5px solid #ff7900;
+ border-top: 5px solid #428bca;
  width: 200px;
 }
   /*color el text gwa el drop down*/
     .dropdown-menu > li > a {
-        color: #ff7900;
+        color: #428bca;
         }
        /*color el hover gwa el drop down*/
    .dropdown-menu > li > a:hover, 
    .dropdown-menu > li > a:focus {
     
-    background-color: #ff7900;
+    background-color: #428bca;
       font-weight: bold;
        color: white;
           }
           /*color el divider*/
 .dropdown-menu .divider {
   height: 2px;
-  background-color: #ff7900;
+  background-color: #428bca;
 
 }
   .navbar-inverse .navbar-brand:hover, 
   .navbar-inverse .navbar-brand:focus {
-  color:#ff7900 ;
+  color:#428bca ;
   }
 
 /*color el logo*/
     .navbar-inverse .navbar-brand {
-  color: #ff7900;
+  color: #428bca;
   font-size: 30px;
   font-family: monospace;
   line-height: 40px;
@@ -84,7 +84,7 @@ body {
 
 /*hover el link f el nav bar*/
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-  color: #ff7900;
+  color: #428bca;
   background-color: transparent;
 }
 
@@ -115,7 +115,7 @@ margin-top:18px;
 /*lead da el class bta3 el paragraph*/
 .about .lead
 {
-  color:#ff7900;
+  color:#428bca;
   font-size:25px;
   margin-top:15px;
 
@@ -138,7 +138,7 @@ font-family: 'Exo 2', sans-serif;
 }
 .price_table span {
 margin-bottom: 30px;
-color: #ff7900;
+color: #428bca;
 font-family: 'Exo 2', sans-serif;
 
 }
@@ -146,7 +146,7 @@ font-family: 'Exo 2', sans-serif;
 .price_table .price_box {
   background: white;
   padding: 10px;
-  border: 1px solid #ff7900;
+  border: 1px solid #428bca;
   margin-bottom: 15px;
 }
 
@@ -157,7 +157,7 @@ font-family: 'Exo 2', sans-serif;
 .price_table .price_box p {
  font-size: 35px;
  font-weight: bold;
- color: #ff7900;
+ color: #428bca;
 }
 .price_table .price_box:hover img {
   -webkit-transform: translateY(0px) scale(0.8);
@@ -196,7 +196,7 @@ ul.info {
 
 .price_table .price_box a {
     display: block;
-    background-color: #ff7900;
+    background-color: #428bca;
     color: white;
     padding: 5px;
     text-decoration: none;
@@ -247,7 +247,7 @@ video {
   height:108px;
 }
 .contact-us button {
-  background-color: #ff7900;
+  background-color: #428bca;
   color: white;
   border: 0px;
 }
@@ -269,7 +269,7 @@ video {
   color: #FFF;
 }
 .footer h2 {
-  color:#ff7900;
+  color:#428bca;
   letter-spacing:1px;
 }
 .footer .threecol{
@@ -317,7 +317,7 @@ overflow: hidden;
 }
 .footer .copyright span 
 {
-  color:#ff7900;
+  color:#428bca;
 }
 /*end footer*/
 
@@ -359,7 +359,7 @@ overflow: hidden;
 /*lead da el class bta3 el paragraph*/
 .map-about .lead
 {
-  color:#ff7900;
+  color:#428bca;
   font-size:25px;
   
 
@@ -393,7 +393,7 @@ color : black;
 }
 
 .login .form-control:focus {
-  border-color: #ff7900;
+  border-color: #428bca;
 
 }
 
@@ -403,18 +403,18 @@ color : black;
 }
 
 .login button {
-  background-color: #ff7900;
+  background-color: #428bca;
   color: white;
   border: 0px;
   width: 200px;
   margin: auto;
 }
 .login i {
-color: #ff7900;
+color: #428bca;
 }
 
 .login a {
-color: #ff7900;
+color: #428bca;
 margin:10px;
 font-size: 20px;
 font-family: cursive;
@@ -452,7 +452,7 @@ color : black;
 }
 
 .register .form-control:focus {
-  border-color: #ff7900;
+  border-color: #428bca;
 
 }
 
@@ -462,18 +462,18 @@ color : black;
 }
 
 .register button {
-  background-color: #ff7900;
+  background-color: #428bca;
   color: white;
   border: 0px;
   width: 200px;
   margin: auto;
 }
 .register i {
-color: #ff7900;
+color: #428bca;
 }
 
 .register a {
-color: #ff7900;
+color: #428bca;
 margin:10px;
 font-size: 20px;
 font-family: cursive;
