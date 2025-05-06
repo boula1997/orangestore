@@ -153,11 +153,11 @@ if (!$product) {
             <div class="col-lg-6">
                 <h2>Follow us</h2>
                 <ul class="list-unstyled icons">
-                    <li><i class="fa fa-facebook fa-5x" aria-hidden="true"></i></li>
-                    <li><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></li>
-                    <li><i class="fa fa-pinterest fa-5x" aria-hidden="true"></i></li>
-                    <li><i class="fa fa-youtube-play fa-5x" aria-hidden="true"></i></li>
-                </ul>
+						<li> <i class="fa fa-facebook fa-2x " aria-hidden="true"></i></li>
+						<li><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
+						<li> <i class="fa fa-pinterest fa-2x" aria-hidden="true"></i></li>
+						<li><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></li>
+					</ul>
             </div>
         </div>
     </div>
