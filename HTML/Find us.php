@@ -33,7 +33,7 @@
 				</button>
 
 				<!-- logo  -->
-				<a class="navbar-brand" href="Home.php">  <img src="../images/logo.png" alt="Laptops Market Logo" class="logo">
+				<a class="" href="Home.php">  <img src="../images/logo.png" alt="Laptops Market Logo" class="logo">
 				</a>
 			</div>
 

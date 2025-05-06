@@ -55,9 +55,9 @@ if (!$product) {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a  href="Home.php"> 
-             <img src="../images/logo.png" alt="Laptops Market Logo" class="logo">
-            </a>
+				<!-- logo  -->
+				<a class="" href="Home.php">  <img src="../images/logo.png" alt="Laptops Market Logo" class="logo">
+				</a>
         </div>
         <div class="collapse navbar-collapse" id="navtest">
             <ul class="nav navbar-nav navbar-right">
