@@ -112,6 +112,10 @@ if (!$product) {
                         <td>Battery Life</td>
                         <td>Up to 12 hours</td>
                     </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td>16000 LE</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
