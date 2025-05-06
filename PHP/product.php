@@ -81,7 +81,7 @@ if (!$product) {
         </div>
         <div class="col-md-7">
             <h2 class="text-primary"><?= htmlspecialchars($product['title']) ?></h2>
-            <p class="lead"><?= nl2br(htmlspecialchars($product['description'])) ?></p>
+			<p class="lead"><?= $product['description'] ?></p>
 
             <table class="table table-striped table-bordered">
                 <thead class="bg-primary text-white">
