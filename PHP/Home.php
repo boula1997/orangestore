@@ -9,7 +9,7 @@ session_start();
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>ORANGE MARKET</title>
+	<title>Laptops Market</title>
 	<link rel="icon" href="../images/icon2.jpg" />
 	<link rel='stylesheet' href='../css/bootstrap.css' />
 	<link rel='stylesheet' href='../css/font-awesome.min.css' />
@@ -37,7 +37,7 @@ session_start();
 				</button>
 
 				<!-- logo  -->
-				<a class="navbar-brand" href="Home.php"> Orange<span>Market</span></a>
+				<a class="navbar-brand" href="Home.php"> Laptops<span>Market</span></a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="navtest">
@@ -310,7 +310,7 @@ session_start();
 		</div>
 
 		<div class="copyright text-center">
-			Copyright&copy;2019 <span>Orange Market</span>.Egypt
+			Copyright&copy;2019 <span>Laptops Market</span>.Egypt
 		</div>
 	</section>
 	<!-- End Footer -->
