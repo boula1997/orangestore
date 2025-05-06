@@ -206,7 +206,7 @@ session_start();
 								<li class="right-text">EGP <?php echo number_format($row['price_bd'], 2); ?></li>
 								<br>
 								<li class=""> <?php echo $row['pt.description']; ?></li>
-								<a href="product.php?product_id=<?php echo number_format($row['id']); ?>">add to cart</a>
+								<a href="product.php?product_id=<?php echo number_format($row['id']); ?>">Read Details</a>
 
 
 
