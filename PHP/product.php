@@ -114,10 +114,14 @@ if (!$product) {
                     </tr>
                 </tbody>
             </table>
-			
-            <h2 class="text-primary"><?= htmlspecialchars($product['title']) ?></h2>
-			<p class="lead"><?= $product['description'] ?></p>
         </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+		<h2 class="text-primary"><?= htmlspecialchars($product['title']) ?></h2>
+		<p class="lead"><?= $product['description'] ?></p>
+        </div>
+
     </div>
 </section>
 
