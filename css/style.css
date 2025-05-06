@@ -250,7 +250,7 @@ video {
 /* للهواتف فقط */
 @media (max-width: 767px) {
   .logo {
-    margin-left: 15px; /* عدل الرقم حسب ما يناسبك */
+    margin-left: 20px; /* عدل الرقم حسب ما يناسبك */
   }
 }
 
