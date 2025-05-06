@@ -74,36 +74,22 @@ if (!$product) {
 <!-- Product Details -->
 <section class="container laptop-details" style="margin: 50px auto;">
 <style>
-.equal-height {
-    display: flex;
-    align-items: stretch;
-}
-
-.equal-height > .col-md-5,
-.equal-height > .col-md-7 {
-    display: flex;
-    flex-direction: column;
-}
-
-.equal-height img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
+    .fixed-img {
+        width: 100%;
+        object-fit: cover;
+    }
 </style>
-<div class="row equal-height">
+<div class="row">
     <div class="col-md-5">
-        <img src="<?php echo "https://yousab-tech.com/workspace/public/" . $product['image']; ?>" 
+        <img id="productImage" 
+             src="<?php echo "https://yousab-tech.com/workspace/public/" . $product['image']; ?>" 
              alt="<?= htmlspecialchars($product['title']) ?>" 
-             class="img-responsive img-thumbnail">
+             class="img-thumbnail fixed-img">
     </div>
     <div class="col-md-7">
-        <table class="table table-striped table-bordered" style="flex-grow: 1; margin: 0;">
+        <table id="productTable" class="table table-striped table-bordered">
             <thead class="bg-primary text-white">
-                <tr>
-                    <th>Feature</th>
-                    <th>Detail</th>
-                </tr>
+                <tr><th>Feature</th><th>Detail</th></tr>
             </thead>
             <tbody>
                 <tr><td>Processor</td><td>Intel Core i7-12700H</td></tr>
@@ -117,6 +103,20 @@ if (!$product) {
         </table>
     </div>
 </div>
+
+<script>
+    $(document).ready(function () {
+        // Match image height to the table height
+        const tableHeight = $('#productTable').outerHeight();
+        $('#productImage').height(tableHeight);
+    });
+
+    // Optional: handle resize
+    $(window).on('resize', function () {
+        const tableHeight = $('#productTable').outerHeight();
+        $('#productImage').height(tableHeight);
+    });
+</script>
 
 
     <div class="row">
