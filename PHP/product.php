@@ -69,7 +69,7 @@ session_start();
 <section class="container laptop-details" style="margin: 50px auto;">
     <div class="row">
         <div class="col-md-5">
-            <img src="../images/laptop1.jpg" alt="Laptop Image" class="img-responsive img-thumbnail">
+            <img src="https://yousab-tech.com/workspace/public/images/lFm4BhN2x9t3xJnk42ivFtqCWzMCcLppx1Mlr9gN.jpg" alt="Laptop Image" class="img-responsive img-thumbnail">
         </div>
         <div class="col-md-7">
             <h2 class="text-primary">Laptop Title: Dell XPS 15</h2>
