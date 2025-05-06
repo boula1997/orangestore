@@ -172,17 +172,28 @@ session_start();
 
 		<?php
 
-			$stmt = $pdo->query("SELECT p.id,p.price,p.price_bd, pt.title, pt.description
-			FROM products p
-			JOIN product_translations pt ON p.id = pt.product_id
-			WHERE pt.locale = 'ar'");
+$stmt = $pdo->query("
+    SELECT 
+        p.id, 
+        p.price, 
+        p.price_bd, 
+        pt.title, 
+        pt.description, 
+        f.url as image
+    FROM products p
+    JOIN product_translations pt ON p.id = pt.product_id
+    LEFT JOIN files f ON f.fileable_id = p.id 
+        AND f.fileable_type = 'App\\\\Models\\\\Product'
+    WHERE pt.locale = 'ar'
+    GROUP BY p.id
+");
 			while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
 			?>
 
 				<div class="col-md-4 col-sm-6 col-xm-12">
 					<div class="price_box wow fadeInUp" data-wow-duration="2s" data-wow-offset="200">
 							<div class="img">
-							<img id=<?php echo number_format($row['id']);?>  class="center-block" src="../images/cart/<?php  echo $row['pt.title'];?>" alt="img">
+							<img id=<?php echo number_format($row['id']);?>  class="center-block" src="<?php  echo $row['image'];?>" alt="img">
 						</div>
 						<ul class="info list-unstyled">
 							<li >EGP <?php  echo number_format($row['price'], 2);?></li>
