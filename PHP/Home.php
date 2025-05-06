@@ -24,7 +24,7 @@ session_start();
 
 
 <a class="navbar-brand" href="Home.php">
-  <img src="../images/logo.png" alt="Laptops Market Logo" class="logo">
+  <!-- <img src="../images/logo.png" alt="Laptops Market Logo" class="logo"> -->
 </a>
 
 
