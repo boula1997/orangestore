@@ -80,10 +80,7 @@ if (!$product) {
                  class="img-responsive img-thumbnail">
         </div>
         <div class="col-md-7">
-            <h2 class="text-primary"><?= htmlspecialchars($product['title']) ?></h2>
-			<p class="lead"><?= $product['description'] ?></p>
-
-            <table class="table table-striped table-bordered">
+		<table class="table table-striped table-bordered">
                 <thead class="bg-primary text-white">
                     <tr>
                         <th>Feature</th>
@@ -117,6 +114,9 @@ if (!$product) {
                     </tr>
                 </tbody>
             </table>
+			
+            <h2 class="text-primary"><?= htmlspecialchars($product['title']) ?></h2>
+			<p class="lead"><?= $product['description'] ?></p>
         </div>
     </div>
 </section>
