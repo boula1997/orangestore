@@ -80,14 +80,13 @@ session_start();
 
 
 	<!-- start about us  -->
-	<section class="about text-center wow bounceIn" data-wow-duration="8s" data-wow-offset="300">
+	<!-- <section class="about text-center wow bounceIn" data-wow-duration="8s" data-wow-offset="300">
 		<h1 class="hidden-xs">Meet our new Store <span>Orane Market</span></h1>
 		<h3 class="visible-xs">Meet our new Store <span>Orange Market</span></h5>
 
 			<p class="lead">Hello Let me introduce our new Products </p>
-			<!-- el lead da by5li el css f el p mo5talef w a7la -->
 
-	</section>
+	</section> -->
 
 	<!-- End about us  -->
 
