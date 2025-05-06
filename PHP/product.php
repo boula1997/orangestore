@@ -73,15 +73,32 @@ if (!$product) {
 
 <!-- Product Details -->
 <section class="container laptop-details" style="margin: 50px auto;">
-<div class="row" style="display: flex; align-items: stretch;">
-    <div class="col-md-5" style="display: flex;">
+<style>
+.equal-height {
+    display: flex;
+    align-items: stretch;
+}
+
+.equal-height > .col-md-5,
+.equal-height > .col-md-7 {
+    display: flex;
+    flex-direction: column;
+}
+
+.equal-height img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+</style>
+<div class="row equal-height">
+    <div class="col-md-5">
         <img src="<?php echo "https://yousab-tech.com/workspace/public/" . $product['image']; ?>" 
              alt="<?= htmlspecialchars($product['title']) ?>" 
-             class="img-responsive img-thumbnail" 
-             style="object-fit: cover; width: 100%; height: 100%;">
+             class="img-responsive img-thumbnail">
     </div>
     <div class="col-md-7">
-        <table class="table table-striped table-bordered" style="margin: 0;">
+        <table class="table table-striped table-bordered" style="flex-grow: 1; margin: 0;">
             <thead class="bg-primary text-white">
                 <tr>
                     <th>Feature</th>
@@ -89,38 +106,18 @@ if (!$product) {
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Processor</td>
-                    <td>Intel Core i7-12700H</td>
-                </tr>
-                <tr>
-                    <td>RAM</td>
-                    <td>16 GB DDR5</td>
-                </tr>
-                <tr>
-                    <td>Storage</td>
-                    <td>1 TB SSD</td>
-                </tr>
-                <tr>
-                    <td>Display</td>
-                    <td>15.6" 4K UHD Touchscreen</td>
-                </tr>
-                <tr>
-                    <td>Graphics</td>
-                    <td>NVIDIA RTX 3050 Ti</td>
-                </tr>
-                <tr>
-                    <td>Battery Life</td>
-                    <td>Up to 12 hours</td>
-                </tr>
-                <tr>
-                    <td>Price</td>
-                    <td>16000 LE</td>
-                </tr>
+                <tr><td>Processor</td><td>Intel Core i7-12700H</td></tr>
+                <tr><td>RAM</td><td>16 GB DDR5</td></tr>
+                <tr><td>Storage</td><td>1 TB SSD</td></tr>
+                <tr><td>Display</td><td>15.6" 4K UHD Touchscreen</td></tr>
+                <tr><td>Graphics</td><td>NVIDIA RTX 3050 Ti</td></tr>
+                <tr><td>Battery Life</td><td>Up to 12 hours</td></tr>
+                <tr><td>Price</td><td>16000 LE</td></tr>
             </tbody>
         </table>
     </div>
 </div>
+
 
     <div class="row">
         <div class="col-md-12">
