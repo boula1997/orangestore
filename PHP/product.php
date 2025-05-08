@@ -89,7 +89,7 @@ if (!$product) {
              alt="<?= htmlspecialchars($product['title']) ?>" 
              class="img-thumbnail fixed-img">
     </div>
-    <div class="col-md-7">
+    <div class="col-md-7 mt-2">
         <table id="productTable" class="table table-striped table-bordered">
             <thead class="bg-primary text-white">
                 <tr><th>Feature</th><th>Detail</th></tr>
