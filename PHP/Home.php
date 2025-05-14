@@ -204,7 +204,7 @@ session_start();
 									alt="img">
 							</div>
 							<ul class="info list-unstyled">
-								<li><?php echo number_format($row['title'], 2); ?></li>
+								<li><?php $row['title'] ?></li>
 								<li>EGP <?php echo number_format($row['price'], 2); ?></li>
 								<li class="right-text">EGP <?php echo number_format($row['price_bd'], 2); ?></li>
 								<br>
