@@ -204,11 +204,11 @@ session_start();
 									alt="img">
 							</div>
 							<ul class="info list-unstyled">
-								<li><?php echo $row['pt.title']; ?></li>
+								<li><?php echo $row['title']; ?></li>
 								<li>EGP <?php echo number_format($row['price'], 2); ?></li>
 								<li class="right-text">EGP <?php echo number_format($row['price_bd'], 2); ?></li>
 								<br>
-								<li class=""> <?php echo $row['pt.description']; ?></li>
+								<li class=""> <?php echo $row['description']; ?></li>
 								<a href="product.php?product_id=<?php echo number_format($row['id']); ?>">Read Details</a>
 
 
