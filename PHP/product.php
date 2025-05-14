@@ -10,8 +10,8 @@ $product_id = (int) $_GET['product_id'];
 
 $stmt = $pdo->prepare("
     SELECT 
-        p.id, p.price, p.price_bd, p.icon,
-        pt.title, pt.description,
+        p.id, p.price, p.price_bd, p.icon, p.generation, p.hdd, p.processor, p.ram, 
+        p.screenCard, p.ssd, pt.title, pt.description,
         f.url AS image
     FROM products p
     JOIN product_translations pt ON p.id = pt.product_id AND pt.locale = 'en'
@@ -21,6 +21,7 @@ $stmt = $pdo->prepare("
 ");
 $stmt->execute([$product_id]);
 $product = $stmt->fetch(PDO::FETCH_ASSOC);
+
 
 if (!$product) {
     die("Product not found.");
@@ -95,14 +96,15 @@ if (!$product) {
                 <tr><th>Feature</th><th>Detail</th></tr>
             </thead>
             <tbody>
-                <tr><td>Processor</td><td>Intel Core i7-12700H</td></tr>
-                <tr><td>RAM</td><td>16 GB DDR5</td></tr>
-                <tr><td>Storage</td><td>1 TB SSD</td></tr>
-                <tr><td>Display</td><td>15.6" 4K UHD Touchscreen</td></tr>
-                <tr><td>Graphics</td><td>NVIDIA RTX 3050 Ti</td></tr>
-                <tr><td>Battery Life</td><td>Up to 12 hours</td></tr>
-                <tr><td>Price</td><td>16000 LE</td></tr>
-            </tbody>
+    <tr><td>Processor</td><td><?= htmlspecialchars($product['processor']) ?></td></tr>
+    <tr><td>RAM</td><td><?= htmlspecialchars($product['ram']) ?> GB</td></tr>
+    <tr><td>HDD</td><td><?= htmlspecialchars($product['hdd']) ?> GB</td></tr>
+    <tr><td>SSD</td><td><?= htmlspecialchars($product['ssd']) ?> GB</td></tr>
+    <tr><td>Screen Card</td><td><?= htmlspecialchars($product['screenCard']) ?></td></tr>
+    <tr><td>Generation</td><td><?= htmlspecialchars($product['generation']) ?></td></tr>
+    <tr><td>Price (LE)</td><td><?= htmlspecialchars($product['price']) ?></td></tr>
+    <tr><td>Price (BD)</td><td><?= htmlspecialchars($product['price_bd']) ?></td></tr>
+</tbody>
         </table>
     </div>
 </div>

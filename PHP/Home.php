@@ -37,7 +37,7 @@ session_start();
 				</button>
 
 				<!-- logo  -->
-				<a class="" href="Home.php">  <img src="../images/logo.png" alt="Laptops Market Logo" class="logo">
+				<a class="" href="Home.php"> <img src="../images/logo.png" alt="Laptops Market Logo" class="logo">
 				</a>
 			</div>
 
@@ -321,8 +321,8 @@ session_start();
 
 
 	<a href="https://wa.me/201126785910" target="_blank" class="whatsapp-float">
-  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" />
-</a>
+		<img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" />
+	</a>
 
 
 
