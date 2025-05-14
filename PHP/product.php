@@ -103,7 +103,7 @@ if (!$product) {
     <tr><td>Screen Card</td><td><?= htmlspecialchars($product['screenCard']) ?></td></tr>
     <tr><td>Generation</td><td><?= htmlspecialchars($product['generation']) ?></td></tr>
     <tr><td>Price (LE)</td><td><?= htmlspecialchars($product['price']) ?></td></tr>
-    <tr><td>Price (BD)</td><td><?= htmlspecialchars($product['price_bd']) ?></td></tr>
+    <!-- <tr><td>Price (BD)</td><td><?= htmlspecialchars($product['price_bd']) ?></td></tr> -->
 </tbody>
         </table>
     </div>
